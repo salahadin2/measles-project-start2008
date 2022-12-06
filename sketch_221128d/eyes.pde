@@ -1,5 +1,6 @@
 float leftEyeX, leftEyeY, rightEyeX, rightEyeY, eyeDiameter;
 //
+
 void eyes() {
   leftEye();
   rightEye();
@@ -10,15 +11,17 @@ void eyes() {
  */
 //
 void leftEye() {
-  //Logical Rectangle for Left Eye, teacher demo, repeated below
-  //Purpose: no measles in eye
+  // Logical Rectangle for Left Eye, teacher demo, repeated below
+ 
   //Easier layering method
   //rect(leftEyeX-eyeDiameter*1/2, leftEyeY-eyeDiameter*1/2, eyeDiameter, eyeDiameter);
-  ellipse(leftEyeX, leftEyeY, eyeDiameter, eyeDiameter);
+  ellipse(leftEyeX, leftEyeY, eyeDiameter, eyeDiameter);//left eye is bigger than right eye
 } //End leftEye
 //
 void rightEye() {
   //rect(rightEyeX-eyeDiameter*1/2, rightEyeY-eyeDiameter*1/2, eyeDiameter, eyeDiameter);
   ellipse(rightEyeX, rightEyeY, eyeDiameter, eyeDiameter);
 } //End rightEye
+//nightmode=true;
+
 //End Eyes Subprogram
