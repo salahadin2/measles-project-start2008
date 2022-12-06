@@ -6,7 +6,7 @@ Boolean nightMode=false; //Basic Night Mode only changes measles
 //
 void setup() {
   //Display & Orientation
-  size(600,700);
+  size(500,600);
   displayOrientation();
   appWidth = width;
   appHeight = height;
