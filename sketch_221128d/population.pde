@@ -3,7 +3,7 @@ void population() {
   float centerY = appHeight*1/2;
   //
   int smallerDimension;
-  smallerDimension = ( landscape == true) ? appHeight : appWidth;
+  smallerDimension = ( landscape == false) ? appHeight : appWidth;
   println(smallerDimension);
   //
   rectFaceX = centerX - smallerDimension*1/2;
@@ -14,17 +14,29 @@ void population() {
   faceY  = centerY;
   faceDiameter = smallerDimension;
   //
+  
+ 
+  rectface2X=  centerX - smallerDimension*1/2;
+ rectface2Y=appHeight * 0;
+ rectfacewidth2=smallerDimension;
+   rectfaceHeight2 = rectFaceWidth; //rectFace is square
+  
+  
+  
+  
+  //
   leftEyeX = appWidth*1.4/4;
   rightEyeX = appWidth*2.6/4;
   leftEyeY = appHeight*1/4;
   rightEyeY = leftEyeY; //Best Practice: change one line of code
-  eyeDiameter = smallerDimension*1/4;
+  eyeDiameter = smallerDimension*1/7;
   //
   mouthX1 = leftEyeX;
   mouthY1 = smallerDimension*3/4;
   mouthX2 = rightEyeX;
   mouthY2 = mouthY1;
- mouthOpen = smallerDimension*1/4;
+  mouthOpen = appHeight*1/4;
+
   
   //
   xNose1 = faceX;
