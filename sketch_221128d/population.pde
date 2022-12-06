@@ -24,7 +24,8 @@ void population() {
   mouthY1 = smallerDimension*3/4;
   mouthX2 = rightEyeX;
   mouthY2 = mouthY1;
-  mouthOpen = smallerDimension*1/4;
+ mouthOpen = smallerDimension*1/4;
+  
   //
   xNose1 = faceX;
   yNose1 = leftEyeY;
