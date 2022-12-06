@@ -1,4 +1,4 @@
-Boolean landscape=false, portrait=false;
+Boolean landscape=true, portrait=true;
 //
 void displayOrientation() {
   //Diplay Orientation Algorithm, see Hello World to copy
