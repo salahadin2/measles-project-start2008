@@ -1,12 +1,12 @@
 //Global Variables
 int appWidth, appHeight;
-int reset=1;
-color resetWhite=#413BFF;
+int reset=5;
+color resetWhite=#FFFFFF;
 Boolean nightMode=false; //Basic Night Mode only changes measles
 //
 void setup() {
   //Display & Orientation
-  size(700, 400); 
+  size(600,700);
   displayOrientation();
   appWidth = width;
   appHeight = height;
@@ -36,10 +36,9 @@ void keyPressed() {
       nightMode=false;
     }
   }
-  println(nightMode);
+  println("Night Mode Feature", nightMode);
 }//End keyPressed
 //
-  
 void mousePressed() {
   //OS System Button
   //Start Button
